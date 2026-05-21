@@ -13,7 +13,7 @@ import 'highlight.js/styles/github-dark.css'
 import './App.css'
 
 const Editor = EditorModule.default || EditorModule
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000'
+const API_URL = import.meta.env.VITE_API_URL || 'https://ai-code-reviewer-backend-v696.onrender.com'
 
 function App() {
   const [code, setCode] = useState(`function sum(a, b) {
